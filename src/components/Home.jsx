@@ -79,10 +79,15 @@ const Home = () => {
         <div ref={parallax1.ref} className="workdonebubble1">
           Healthcare Platform
         </div>
-
-        <div ref={parallax2.ref} className="workdonebubble2">
-          Personal Portfolio{" "}
-        </div>
+        <Link
+          to={"https://github.com/harshinJJ/Portfolio"}
+          target="_blank"
+          style={{ textDecoration: "none" }}
+        >
+          <div ref={parallax2.ref} className="workdonebubble2">
+            Personal Portfolio{" "}
+          </div>
+        </Link>
         <Link
           to={"https://github.com/harshinJJ/Blood-Bank-project"}
           target="_blank"
