@@ -116,7 +116,9 @@ const Home = () => {
           </div>
         </Link>
       </div>
-      <div className="cvpart"></div>
+      <div className="cvpart">
+        
+      </div>
     </section>
   );
 };
